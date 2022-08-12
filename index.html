@@ -54,7 +54,10 @@
                 <div id="corner-tl" class="corner"></div>
                 <div id="corner-tr" class="corner"></div>
                 <h3>What I Do</h3>
-                <p>I'm a Frontend Developer</p>
+                <p>
+                  I'm a Frontend Developer aiming to create the best looking and
+                  most useful websites.
+                </p>
                 <div id="corner-bl" class="corner"></div>
                 <div id="corner-br" class="corner"></div>
               </div>
@@ -65,15 +68,136 @@
     </section>
 
     <section class="s2">
-      <div class="main-container">About</div>
+      <div class="main-container">
+        <div class="about-wrapper">
+          <div class="about-me">
+            <h4>More about me</h4>
+            <p>I build new projects just to tickle my brain.</p>
+            <p>
+              While I keep busy making projects, I still take interviews in
+              search of a great team & projects that interest me.
+            </p>
+
+            <hr />
+
+            <h4>TOP EXPERTISE</h4>
+
+            <p>
+              Frontend developer with a primary focus on React:
+              <a href="LautaroMugas(en).pdf" target="_blank">Download Resume</a>
+            </p>
+
+            <div id="skills">
+              <ul>
+                <li>JavaScript</li>
+                <li>TypeScript</li>
+                <li>React</li>
+                <li>React Native</li>
+                <li>Material UI</li>
+              </ul>
+              <ul>
+                <li>Git</li>
+                <li>Figma</li>
+                <li>REST API</li>
+                <li>Responsive Design</li>
+                <li>HTML/CSS</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="social-links">
+            <h3>Find me on LinkedIn & GitHub</h3>
+            <a
+              href="https://www.linkedin.com/in/lautaro-mugas/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >LinkedIn</a
+            >
+            <br />
+            <a
+              href="https://github.com/lautaromugas8"
+              target="_blank"
+              rel="noopener noreferrer"
+              >GitHub</a
+            >
+          </div>
+        </div>
+      </div>
     </section>
 
     <section class="s1">
-      <div class="main-container">Portfolio</div>
+      <div class="main-container">
+        <h3 style="text-align: center">Some of my past projects</h3>
+
+        <div class="post-wrapper">
+          <div>
+            <div class="post">
+              <img
+                class="thumbnail"
+                src="images/videogames-thumbnail.png"
+                alt=""
+              />
+              <div class="post-preview">
+                <h6 class="post-title">Videogames App</h6>
+                <p class="post-intro">This is a sentence. Some more text</p>
+                <a href="#">Read More</a>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <div class="post">
+              <img
+                class="thumbnail"
+                src="images/clothstore-thumbnail.png"
+                alt=""
+              />
+              <div class="post-preview">
+                <h6 class="post-title">ClothStore</h6>
+                <p class="post-intro">This is a sentence. Some more text</p>
+                <a href="#">Read More</a>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <div class="post">
+              <img
+                class="thumbnail"
+                src="images/go-scrum-thumbnail.png"
+                alt=""
+              />
+              <div class="post-preview">
+                <h6 class="post-title">Go Scrum</h6>
+                <p class="post-intro">This is a sentence. Some more text</p>
+                <a href="#">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <section class="s2">
-      <div class="main-container">Contact</div>
+      <div class="main-container">
+        <h3 style="text-align: center">Get In Touch</h3>
+
+        <form id="contact-form">
+          <label>Name</label>
+          <input class="input-field" type="text" name="name" />
+
+          <label>Subject</label>
+          <input class="input-field" type="text" name="subject" />
+
+          <label>Email</label>
+          <input class="input-field" type="text" name="email" />
+
+          <label>Message</label>
+          <textarea class="input-field" type="text" name="message"></textarea>
+
+          <input id="submit-btn" type="submit" value="Send" />
+        </form>
+      </div>
     </section>
   </body>
 </html>
