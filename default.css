@@ -354,6 +354,7 @@ h6 {
   border-radius: 5px;
   border: 1px solid var(--borderColor);
   font-size: 14px;
+  outline: none;
 }
 
 #submit-btn {
@@ -364,6 +365,11 @@ h6 {
   color: #fff;
   background-color: var(--buttonColor);
   border: none;
+  cursor: pointer;
+}
+
+#submit-btn:hover {
+  filter: invert(100%);
 }
 
 @media screen and (max-width: 1200px) {
